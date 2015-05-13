@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialtoSerial", "SerialtoSerial\SerialtoSerial.csproj", "{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}"
+EndProject
+Project("{ACA99D24-2A4B-4C16-9E92-13D6ABC4AC35}") = "SerialtoSerial_Install", "SerialtoSerial_Install.isproj", "{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5} = {42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://saic-ws1:8080/tfs/ans
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SerialtoSerial\\SerialtoSerial.csproj
+		SccProjectName1 = SerialtoSerial
+		SccLocalPath1 = SerialtoSerial
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|x86 = CD_ROM|x86
+		Custom|x86 = Custom|x86
+		Debug|x86 = Debug|x86
+		DVD-10|x86 = DVD-10|x86
+		DVD-18|x86 = DVD-18|x86
+		DVD-5|x86 = DVD-5|x86
+		DVD-9|x86 = DVD-9|x86
+		Release|x86 = Release|x86
+		SingleImage|x86 = SingleImage|x86
+		WebDeployment|x86 = WebDeployment|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.CD_ROM|x86.ActiveCfg = Release|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.CD_ROM|x86.Build.0 = Release|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.Custom|x86.ActiveCfg = Release|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.Custom|x86.Build.0 = Release|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.Debug|x86.ActiveCfg = Debug|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.Debug|x86.Build.0 = Debug|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.DVD-10|x86.ActiveCfg = Debug|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.DVD-10|x86.Build.0 = Debug|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.DVD-18|x86.ActiveCfg = Debug|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.DVD-18|x86.Build.0 = Debug|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.DVD-5|x86.ActiveCfg = Debug|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.DVD-5|x86.Build.0 = Debug|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.DVD-9|x86.ActiveCfg = Debug|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.DVD-9|x86.Build.0 = Debug|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.Release|x86.ActiveCfg = Release|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.Release|x86.Build.0 = Release|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.SingleImage|x86.ActiveCfg = Release|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.SingleImage|x86.Build.0 = Release|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.WebDeployment|x86.ActiveCfg = Release|x86
+		{42CF1DB5-0D5D-4CF1-91D7-C9A62C05D4E5}.WebDeployment|x86.Build.0 = Release|x86
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.CD_ROM|x86.ActiveCfg = CD_ROM
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.CD_ROM|x86.Build.0 = CD_ROM
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.Custom|x86.ActiveCfg = Custom
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.Custom|x86.Build.0 = Custom
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.Debug|x86.ActiveCfg = DVD-9
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.Debug|x86.Build.0 = DVD-9
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.DVD-10|x86.ActiveCfg = DVD-10
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.DVD-10|x86.Build.0 = DVD-10
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.DVD-18|x86.ActiveCfg = DVD-18
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.DVD-18|x86.Build.0 = DVD-18
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.DVD-5|x86.ActiveCfg = DVD-5
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.DVD-5|x86.Build.0 = DVD-5
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.DVD-9|x86.ActiveCfg = DVD-9
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.DVD-9|x86.Build.0 = DVD-9
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.Release|x86.ActiveCfg = WebDeployment
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.Release|x86.Build.0 = WebDeployment
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.SingleImage|x86.ActiveCfg = SingleImage
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.SingleImage|x86.Build.0 = SingleImage
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.WebDeployment|x86.ActiveCfg = WebDeployment
+		{007EAB70-56BB-4E4B-A99D-C56B2F18FC6E}.WebDeployment|x86.Build.0 = WebDeployment
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
